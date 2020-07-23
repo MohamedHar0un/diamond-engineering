@@ -1,0 +1,21 @@
+{
+  "name": "diamond-engineering",
+  "version": "1.0.0",
+  "description": "Diamond Engineering Website",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "iSky Development",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.5.0",
+    "jquery": "^3.5.1",
+    "tether": "^1.4.7"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.10",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.1.0"
+  }
+}
