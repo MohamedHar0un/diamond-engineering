@@ -65,7 +65,7 @@ a {
 a:hover {
     color: #ab2327;
 }
-.footer-nav > li + li::before {
+.footer-nav > li::before {
     content: url(../assets/images/foote_di.jpg);
     top: -3px;
     position: relative;
