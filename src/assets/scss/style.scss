@@ -262,6 +262,16 @@ h1 span{
     transform: translate(0);
     color: #fff;
 }
+
+.main-text-mobile{
+	position: relative;
+	animation: mymove 3s normal;
+}
+@keyframes mymove {
+	from {left: 100px;}
+	to {left: 0px;}
+  }
+
 body.hero-anime h1 span:nth-child(1){
 	opacity: 0;
 	transform: translateY(-20px);
@@ -271,37 +281,53 @@ body.hero-anime h1 span:nth-child(2){
 	transform: translateY(-30px);
 }
 body.hero-anime h1 span:nth-child(3){
-	opacity: 0;1.float-left.hero-main-text {
-		font-size: 25px;
-		color: #ffff;
-	}
-    transition-delay: 1000ms;
+	opacity: 0;
+	transform: translateY(-40px);
+}h1 span
+body.hero-anime h1 span:nth-child(4){
+	opacity: 0;
+	transform: translateY(-40px);
+}
+
+body.hero-anime h1 span:nth-child(5){
+	opacity: 0;
+	transform: translateY(-50px);
+}
+
+body.hero-anime h1 span:nth-child(6){
+	opacity: 0;
+	transform: translateY(-60px);
+}
+
+body.hero-anime h1 span:nth-child(7){
+	opacity: 0;
+	transform: translateY(-70px);
+}
+h1 span:nth-child(1){
+    transition-delay: 700ms;
 }
 h1 span:nth-child(2){
-    transition-delay: 700ms;
+    transition-delay: 900ms;
 }
 h1 span:nth-child(3){
-    transition-delay: 900ms;
+    transition-delay: 800ms;
 }
 h1 span:nth-child(4){
-    transition-delay: 800ms;
-}
-h1 span:nth-child(5){
     transition-delay: 1000ms;
 }
-h1 span:nth-child(6){
+h1 span:nth-child(5){
     transition-delay: 700ms;
 }
-h1 span:nth-child(7){
+h1 span:nth-child(6){
     transition-delay: 900ms;
 }
-h1 span:nth-child(8){
+h1 span:nth-child(7){
     transition-delay: 800ms;
 }
-h1 span:nth-child(9){
+h1 span:nth-child(8){
     transition-delay: 600ms;
 }
-h1 span:nth-child(10){
+h1 span:nth-child(9){
     transition-delay: 700ms;
 }
 body.hero-anime h1 span:nth-child(11){
@@ -770,5 +796,5 @@ body.dark .logo img {
     color: #ffff;
 }
 .font-color-white{
-	color: #fff;
+	color: white !important;
 }
