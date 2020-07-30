@@ -269,7 +269,7 @@ h1 span{
 }
 @keyframes mymove {
 	from {left: 100px;}
-	to {left: 0px;}
+	to {left: 10px;}
   }
 
 body.hero-anime h1 span:nth-child(1){
@@ -797,4 +797,10 @@ body.dark .logo img {
 }
 .font-color-white{
 	color: white !important;
+}
+
+
+.number-in-phone{
+	font-size: 20px !important;
+    padding: 0px 1px 0px 1px !important;
 }
