@@ -567,7 +567,6 @@ body.dark .logo img {
 .company-name-nav {
   font-size: 1.0625rem;
   font-weight: 800;
-  text-align: left;
   color: #fff; }
 
 .company-description-nav {
@@ -579,7 +578,6 @@ body.dark .logo img {
 
 .company-get-in-touch-h {
   font-weight: 500;
-  text-align: left;
   color: #fff; }
 
 .get-in-touch-h-icon {
@@ -738,6 +736,9 @@ h1.hero-main-text {
 
 .font-color-white {
   color: white !important; }
+
+.font-color-black {
+  color: #000 !important; }
 
 .number-in-phone {
   font-size: 20px !important;

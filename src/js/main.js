@@ -3,6 +3,7 @@
 /* Please ❤ this if you like it! */
 (function($) { "use strict";
 
+$(".main-text-mobile").fadeIn();
 	$(function() {
 		var header = $(".start-style");
 		$(window).scroll(function() {    
@@ -20,6 +21,8 @@
 	
 	$(document).ready(function() {
 		$('body.hero-anime').removeClass('hero-anime');
+
+	
 	});
 
 	//Menu On Hover
@@ -45,6 +48,7 @@
 			$("#switch").addClass("switched");
 		}
 	});  
+
 	
   })(jQuery); 
 
