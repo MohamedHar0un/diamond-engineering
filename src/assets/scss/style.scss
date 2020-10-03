@@ -806,3 +806,53 @@ body.dark .logo img {
 	font-size: 20px !important;
     padding: 0px 1px 0px 1px !important;
 }
+
+/* // Begin Header Design 2  */
+.bg-d2 {
+	background-color: #ab2328 !important;
+}
+h1.hero-description-d2 {
+    padding: 9px 0px 7px 0px;
+	color: #fff;
+}
+
+.hero-logo-d2 {
+    width: 25%;
+}
+.hero-d1
+{
+display: none;
+}
+.navbar-d2{
+	justify-content: flex-start !important;
+}
+.half-height-d2 {
+    height: 45vh;
+}
+.hero-banner-d2{
+	width:100%
+}
+.carousel-caption-d2 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+	background-color:#ab2327;
+}
+.caption-container-d2 {
+	font-family: "Roboto", sans-serif;
+    font-size: 13px;
+    line-height: 25px;
+    padding: 0px 0px 0px 27px;
+    width: 100%;
+}
+.hero-d2{
+	margin-top: 20%;
+}
+
+.search-bar-d2 {
+	background-color: #861f23;
+}
+.caption-container-d2 > p{
+	padding-top: 0px !important;
+}
