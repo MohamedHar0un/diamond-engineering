@@ -30,7 +30,8 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: #fff; }
+  background-color: #fff;
+  border-bottom: 5px solid #f71735; }
 
 ::selection {
   color: #fff;
@@ -789,3 +790,27 @@ h1.hero-description-d2 {
 
 .caption-container-d2 > p {
   padding-top: 0px !important; }
+
+.table thead {
+  font-weight: bold;
+  background: #000;
+  color: #fff; }
+
+.bigphoto {
+  width: 100%;
+  border-radius: 20px; }
+
+.breadcrumb {
+  background-color: #f71735;
+  border-radius: 0;
+  display: inline-block;
+  list-style: outside none none;
+  margin-bottom: 0;
+  padding: 20px 40px; }
+
+.breadcrumb > li {
+  display: inline-block; }
+
+.breadcrumb a {
+  color: #fff;
+  font-size: 12px; }
